@@ -4,7 +4,7 @@ $output = '';
 if(isset($_POST['download'])){
     $sql = "SELECT * FROM people";
     $result = $con->query($sql);
-   
+    
     if(mysqli_num_rows($result) > 0){
         $output .='<table class="table" border="1">
                     <tr>
