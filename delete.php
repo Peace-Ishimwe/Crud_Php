@@ -10,6 +10,5 @@ if(isset($_GET['deleteid'])){
     }else{
         die(mysqli_error($con));
     }
-    
 }
 ?>
